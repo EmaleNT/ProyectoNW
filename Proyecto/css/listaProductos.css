@@ -1,0 +1,43 @@
+
+
+div.listaProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.listaProductos > div.producto{
+    background-color: #8B7E74;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.producto{
+    width: 220px;
+
+}
+
+div.producto img{
+    height: 220px;
+    width: 220px;
+    margin: 2.3px 0px;
+    align-items: center;    
+}
+
+/*Para que no se salga del div*/
+div.datosProducto{
+    word-wrap: break-word; 
+}
+
+
+div.producto a{
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+/*Para cuando se visita no se ponga morado*/
+div.producto a:visited{
+    color: black;
+}
+
