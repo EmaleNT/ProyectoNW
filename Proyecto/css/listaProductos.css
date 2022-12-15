@@ -1,4 +1,6 @@
-
+a{
+    cursor: pointer;
+}
 
 div.listaProductos{
     display: flex;
@@ -18,6 +20,7 @@ div.producto{
 
 }
 
+
 div.producto img{
     height: 220px;
     width: 220px;
@@ -36,8 +39,22 @@ div.producto a{
     font-size: 0.7em;
 }
 
+
 /*Para cuando se visita no se ponga morado*/
 div.producto a:visited{
     color: black;
 }
+
+/*Hacer efecto grande el producto*/
+div.producto:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
 
