@@ -10,7 +10,11 @@ if (primero){
     primero=false;
 }
 
-
+//Reinicia el tiempo 
+function reinicioTiempo(){
+    clearInterval(cambio);
+    cambio=setInterval(cambioSolo,4000);
+}
 
 //Configuracion boton derecho
 function flechaDerecha(){
@@ -18,10 +22,9 @@ function flechaDerecha(){
     if(valorImg==4){
         valorImg=0;
     }
-    clearInterval(cambio);
-    cambio=setInterval(cambioSolo,4000);
     cambioImagen(valorImg);
-
+    reinicioTiempo();
+    
 }  
 
 //Configuracion izquierdo
@@ -30,9 +33,8 @@ function flechaIzquierda(){
     if(valorImg==-1){
         valorImg=3;
     }
-    clearInterval(cambio);
-    cambio=setInterval(cambioSolo,4000);
     cambioImagen(valorImg);
+    reinicioTiempo();
 }
 
 function cambioSolo(){
@@ -44,11 +46,12 @@ function cambioSolo(){
 }
 
 
+
 //Menu de imagenes
 function cambioImagen(valorImg){
     switch(valorImg){
         case 0:
-            document.carruselImg.src="/img/pelota.jpg";
+            document.carruselImg.src="/img/pelota.jpg";        
             break;
 
         case 1:
@@ -56,7 +59,7 @@ function cambioImagen(valorImg){
             break;
 
         case 2:
-            document.carruselImg.src="/img/figus.jpg";
+            document.carruselImg.src="/img/logo.png";
             break;
 
         case 3:
