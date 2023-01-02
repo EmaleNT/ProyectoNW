@@ -51,19 +51,19 @@ function cambioSolo(){
 function cambioImagen(valorImg){
     switch(valorImg){
         case 0:
-            document.carruselImg.src="/img/pelota.jpg";        
+            document.carruselImg.src="img/pelota.jpg";        
             break;
 
         case 1:
-            document.carruselImg.src="/img/comida.jpg";
+            document.carruselImg.src="img/comida.jpg";
             break;
 
         case 2:
-            document.carruselImg.src="/img/logo.png";
+            document.carruselImg.src="img/logo.png";
             break;
 
         case 3:
-            document.carruselImg.src="/img/juguetes.jpg";
+            document.carruselImg.src="img/juguetes.jpg";
             break;
     }
     
