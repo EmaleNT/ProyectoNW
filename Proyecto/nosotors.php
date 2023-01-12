@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilosHeaderNav.css">
-    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/estilosHeaderNavacercade.css">
+    <!--<link rel="stylesheet" href="css/nosotros.css">-->
     <title>Mascotify</title>
 </head>
 <body>
