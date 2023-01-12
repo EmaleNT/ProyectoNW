@@ -32,39 +32,13 @@
 
 
     <main>
-    <div class="pricing-plan">
-        <!--<div class="mvv">
-            <img src="img/a.png" alt="" class="pricing-img">
-            <h2 class="pricing-header">Misión</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">Mascotas saludables, personas más felices, dignidad y respeto.</li>
-            </ul>
-        </div>
-
-        <div class="pricing-plan">
-            <img src="img/b.png" alt="" class="pricing-img">
-            <h2 class="pricing-header">Visión</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">Con todo nuestro esfuerzo, proporcionar la más alta calidad de vida a los animales domésticos, otorgando productos, servicios y soluciones que permitan a nuestros clientes amar y cuidar a sus mascotas como lo que son, miembros de su familia.</li>
-            </ul>
-        </div>
-
-        <div class="pricing-plan">
-            <img src="img/c.png" alt="" class="pricing-img">
-            <h2 class="pricing-header">Valores</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">Servicio</li>
-                <li class="pricing-features-item">Compromiso</li>
-                <li class="pricing-features-item">Innovación</li>
-                <li class="pricing-features-item">Calidez</li>
-            </ul>
-        </div> -->
+    <div>
 
         <table>
         <tr>
-            <th rowspan="2">Misión</th>
-            <th rowspan="2">Visión</th>
-            <th rowspan="2">Valores</th>
+            <th rowspan="10">Misión</th>
+            <th rowspan="10">Visión</th>
+            <th rowspan="10">Valores</th>
         </tr>
 
         <tr>
