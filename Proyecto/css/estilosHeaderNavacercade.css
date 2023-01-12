@@ -34,6 +34,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     background-color: #F1D3B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 ol, ul {
 	list-style: none;
@@ -120,5 +124,17 @@ html {
     font: sans-serif;
   }
 
+  .panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
 
 
