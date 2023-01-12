@@ -1,0 +1,9 @@
+main{
+    background-color: #ffff;
+}
+
+
+main .producto{
+    display: flex;
+    background-color: #8B7E74;
+}
