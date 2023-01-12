@@ -48,7 +48,7 @@
             <img src="img/b.png" alt="" class="pricing-img">
             <h2 class="pricing-header">Visión</h2>
             <ul class="pricing-features">
-                <li class="pricing-features-itemn">Con todo nuestro esfuerzo, proporcionar la más alta calidad de vida a los animales domésticos, otorgando productos, servicios y soluciones que permitan a nuestros clientes amar y cuidar a sus mascotas como lo que son, miembros de su familia.</li>
+                <li class="pricing-features-item">Con todo nuestro esfuerzo, proporcionar la más alta calidad de vida a los animales domésticos, otorgando productos, servicios y soluciones que permitan a nuestros clientes amar y cuidar a sus mascotas como lo que son, miembros de su familia.</li>
             </ul>
         </div>
 
