@@ -10,6 +10,8 @@
 
 </head>
 
+<body>
+
 <nav>
        
        <ul>
@@ -27,10 +29,6 @@
       </div>
       
   </nav>
-
-<body>
-
-
 
 
     <main>
