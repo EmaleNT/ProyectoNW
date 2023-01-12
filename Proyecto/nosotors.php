@@ -34,7 +34,12 @@
     <main>
         <h1>¿Quiénes Somos?</h1>
         <hr>
-        <h2>Integrantes:</h2>
+        <h2>Misión</h2>
+            <p></p>
+        <h2>Visión</h2>
+            <p></p>
+        <h2>valores</h2>
+            <p></p>
         <ul>
             <li>Nombre1</li>
             <li>Nombre2</li>
