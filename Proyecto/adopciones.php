@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilosHeaderNav.css">
-    <link rel="stylesheet" href="css/carrusel.css">
     <title>Mascotify</title>
 </head>
 <body>
@@ -35,20 +34,11 @@
     </nav>
 
     <main>
-        <div class="carruselImg">
-              
-            <a class="left" onclick="flechaIzquierda()" ><</a>
-            <img  class="carruselImg" name="carruselImg" id="carruselImg"  src="img/1.png" width="30%" height="20%">
-            <a class="right" onclick ="flechaDerecha()">></a>
-
-
-        </div>
+        
         
     </main>
 
-    <!--Mover imagenes en carrusel-->
-    <script src="js/carruselIndex.js"></script>
-
+    
     <!--Script para los iconos de carrito y usuario-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
