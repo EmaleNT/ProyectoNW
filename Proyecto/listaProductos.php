@@ -14,7 +14,7 @@ $query=$conexion->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilosHeaderNav.css">
     <link rel="stylesheet" href="css/listaProductos.css">
-    <title>Nombre Tienda</title>
+    <title>Mascotify</title>
 </head>
 <body>
 
