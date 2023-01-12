@@ -17,7 +17,7 @@
     <nav>
        
         <ul>
-           <li><a href="index.php"><img src="img/logo.png" alt="Logo"></a></li>
+           <li><a href="index.php"><img src="img/logo.png" alt="Logo" width="25px"></a></li>
            <li><a href="listaProductos.php">Productos</a></li>
            <li><a href="nosotors.php">Nosotros</a></li>
        </ul>
