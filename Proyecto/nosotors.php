@@ -36,9 +36,9 @@
 
         <table>
         <tr>
-            <th rowspan="10">Misión</th>
-            <th rowspan="10">Visión</th>
-            <th rowspan="10">Valores</th>
+            <th colspan="10">Misión</th>
+            <th colspan="10">Visión</th>
+            <th colspan="10">Valores</th>
         </tr>
 
         <tr>
