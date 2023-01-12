@@ -34,7 +34,9 @@
     </nav>
 
     <main>
-        
+        <img src="img/adopta1.png">
+        <img src="img/adopta2.png">
+        <img src="img/adopta3.png">
         
     </main>
 
