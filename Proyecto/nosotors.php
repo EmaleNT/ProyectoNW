@@ -33,7 +33,11 @@
 
    <div class="panel">
         <div class="mvv">
-            <img src="img/a.png">
+            <img src="img/a.png" alt="" class="mvv-img">
+            <h2 class="pricing-header">Misión</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">Mascotas saludables, personas más felices, dignidad y respeto.</li>
+            </ul>
         </div>
 
         <div class="mvv">
