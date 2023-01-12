@@ -33,6 +33,7 @@
 
     <main>
         <h1>¿Quiénes Somos?</h1>
+        <hr>
         <h2>Integrantes:</h2>
         <ul>
             <li>Nombre1</li>
