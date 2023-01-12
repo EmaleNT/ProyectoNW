@@ -115,6 +115,10 @@ nav a:hover{
     background-color: #C7BCA1;
 }
 
+html {
+    box-sizing: border-box;
+    font: sans-serif;
+  }
 
 
 
