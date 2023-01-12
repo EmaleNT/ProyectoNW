@@ -11,13 +11,13 @@
 <body>
 
 <header>
-        <a href="index.php"><img src="img/logo.png" alt="Logo"></a>
+        <!--a href="index.php"><img src="img/logo.png" alt="Logo"></a>-->
 </header>
     
     <nav>
        
         <ul>
-           <li><a href="index.php">Inicio</a></li>
+           <li><a href="index.php"><img src="img/logo.png" alt="Logo"></a></li>
            <li><a href="listaProductos.php">Productos</a></li>
            <li><a href="nosotors.php">Nosotros</a></li>
        </ul>
