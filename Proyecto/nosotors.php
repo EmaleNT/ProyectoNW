@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="css/estilosHeaderNavacercade.css">
     <!--<link rel="stylesheet" href="css/nosotros.css">-->
     <title>Mascotify</title>
-</head>
-<body>
 
-    
     <nav>
        
         <ul>
@@ -28,6 +25,11 @@
        </div>
        
    </nav>
+</head>
+
+
+<body>
+
 
 
 
