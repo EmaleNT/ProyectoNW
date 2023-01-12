@@ -47,18 +47,19 @@ catch(Exception $e){
 }
 */
 
+/*
 $sql="SELECT * FROM producto";
-$query=$conexion->query($sql);
+$query=$conexion->query($sql); */
 
 
-
+/* 
 foreach($query as $productos){
     echo $productos['NOMBRE'].','; 
     echo $productos['PRECIO'].',';
     echo $productos['ID'];
     echo "<img src=".$productos['']." alt='producto'>";
     echo '<br>'; 
-}
+}*/
 
 
 ?>
