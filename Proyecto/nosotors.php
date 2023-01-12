@@ -31,7 +31,10 @@
        
    </nav>
 
-   <div class="pricing-plan">
+
+
+    <main>
+    <div class="pricing-plan">
         <div class="mvv">
             <img src="img/a.png" alt="" class="pricing-img">
             <h2 class="pricing-header">Misión</h2>
@@ -60,29 +63,6 @@
         </div>
 
    </div>
-
-
-    <main>
-        <!-- 
-        <h1>¿Quiénes Somos?</h1>
-        <hr>
-        <h2>Misión</h2>
-            <p>Mascotas saludables, personas más felices, dignidad y respeto.</p>
-        <h2>Visión</h2>
-            <p>Con todo nuestro esfuerzo, proporcionar la más alta calidad de vida a los animales domésticos, otorgando productos, servicios y soluciones que permitan a nuestros clientes amar y cuidar a sus mascotas como lo que son, miembros de su familia.</p>
-        <h2>Valores</h2>
-            <p>
-                <ul>
-                    <li>Servicio</li>
-                    <li>Compromiso</li>
-                    <li>Calidez</li>
-                    <li>Innovación</li>
-                </ul>
-            </p>
-        
-            
-
-             -->
     </main>
 
     <!--Script para los iconos de carrito y usuario-->
