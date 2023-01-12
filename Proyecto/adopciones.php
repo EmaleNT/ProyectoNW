@@ -37,6 +37,14 @@
         <img src="img/adopta1.jpg">
         <img src="img/adopta2.jpg">
         <img src="img/adopta3.jpg">
+
+        <img src="img/adopta4.jpg">
+        <img src="img/adopta5.jpg">
+        <img src="img/adopta6.jpg">
+
+        <img src="img/adopta7.jpg">
+        <img src="img/adopta8.jpg">
+        <img src="img/adopta9.jpg">
         
     </main>
 
