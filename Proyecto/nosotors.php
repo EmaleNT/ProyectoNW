@@ -31,7 +31,7 @@
        
    </nav>
 
-   <div class="panel">
+   <div class="pricing-plan">
         <div class="mvv">
             <img src="img/a.png" alt="" class="pricing-img">
             <h2 class="pricing-header">Misión</h2>
@@ -40,7 +40,7 @@
             </ul>
         </div>
 
-        <div class="mvv">
+        <div class="pricing-plan">
             <img src="img/b.png" alt="" class="pricing-img">
             <h2 class="pricing-header">Visión</h2>
             <ul class="pricing-features">
@@ -48,7 +48,7 @@
             </ul>
         </div>
 
-        <div class="mvv">
+        <div class="pricing-plan">
             <img src="img/c.png" alt="" class="pricing-img">
             <h2 class="pricing-header">Valores</h2>
             <ul class="pricing-features">
