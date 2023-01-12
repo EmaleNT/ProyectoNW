@@ -2,7 +2,7 @@
 $db_host="localhost";
 $db_nombre="tienda";
 $db_usuario="root";
-$db_contrasena="";
+$db_contrasena="hola12345";
 
 try {
     $conexion=new PDO("mysql:host=$db_host;dbname=$db_nombre;",$db_usuario,$db_contrasena);
