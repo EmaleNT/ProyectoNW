@@ -35,7 +35,7 @@
     </nav>
 
     <main>
-        <img src="img/adopta1.jpg" width=30% margin=20px>
+        <img src="img/adopta1.jpg" width=30% margin=50px>
         <img src="img/adopta2.jpg" width=30% margin=20px>
         <img src="img/adopta3.jpg" width=30% margin=20px>
 
