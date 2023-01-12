@@ -8,10 +8,6 @@
 
 body{
     background-color: #F1D3B3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
 *{
