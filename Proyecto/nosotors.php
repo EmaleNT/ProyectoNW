@@ -35,11 +35,18 @@
         <h1>¿Quiénes Somos?</h1>
         <hr>
         <h2>Misión</h2>
-            <p></p>
+            <p>Mascotas saludables, personas más felices, dignidad y respeto.</p>
         <h2>Visión</h2>
-            <p></p>
-        <h2>valores</h2>
-            <p></p>
+            <p>Con todo nuestro esfuerzo, proporcionar la más alta calidad de vida a los animales domésticos, otorgando productos, servicios y soluciones que permitan a nuestros clientes amar y cuidar a sus mascotas como lo que son, miembros de su familia.</p>
+        <h2>Valores</h2>
+            <p>
+                <ul>
+                    <li>Servicio</li>
+                    <li>Compromiso</li>
+                    <li>Calidez</li>
+                    <li>Innovación</li>
+                </ul>
+            </p>
         <ul>
             <li>Nombre1</li>
             <li>Nombre2</li>
