@@ -51,19 +51,43 @@ function cambioSolo(){
 function cambioImagen(valorImg){
     switch(valorImg){
         case 0:
-            document.carruselImg.src="img/pelota.jpg";        
+            document.carruselImg.src="img/1.png";        
             break;
 
         case 1:
-            document.carruselImg.src="img/comida.jpg";
+            document.carruselImg.src="img/2.png";
             break;
 
         case 2:
-            document.carruselImg.src="img/logo.png";
+            document.carruselImg.src="img/3.png";
             break;
 
         case 3:
-            document.carruselImg.src="img/juguetes.jpg";
+            document.carruselImg.src="img/4.png";
+            break;
+
+        case 4:
+            document.carruselImg.src="img/5.png";        
+            break;
+    
+         case 5:
+            document.carruselImg.src="img/6.png";
+            break;
+    
+        case 6:
+            document.carruselImg.src="img/7.png";
+            break;
+    
+        case 7:
+            document.carruselImg.src="img/8.png";
+            break;
+        
+        case 8:
+            document.carruselImg.src="img/9.png";
+            break;
+        
+        case 9:
+            document.carruselImg.src="img/10.png";
             break;
     }
     
