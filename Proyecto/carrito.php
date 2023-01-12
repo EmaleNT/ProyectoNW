@@ -16,13 +16,13 @@
     
     <nav>
        
+       
        <ul>
            <li><a href="index.php">Inicio</a></li>
-           <li><a href="listaProductos.php">Comida</a></li>
-           <li><a href="listaProductos.php">Juguetes</a></li>
-           <li><a href="listaProductos.php">Salud</a></li>
+           <li><a href="listaProductos.php">Productos</a></li>
            <li><a href="nosotors.php">Nosotros</a></li>
        </ul>
+       
       
 
        <div class="iconoCarrito">
