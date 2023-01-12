@@ -31,7 +31,24 @@
        
    </nav>
 
+   <div class="panel">
+        <div class="mvv">
+            <img src="img/a.png">
+        </div>
+
+        <div class="mvv">
+            <img src="img/b.png">
+        </div>
+
+        <div class="mvv">
+            <img src="img/c.png">
+        </div>
+
+   </div>
+
+
     <main>
+        <!-- 
         <h1>¿Quiénes Somos?</h1>
         <hr>
         <h2>Misión</h2>
@@ -48,13 +65,9 @@
                 </ul>
             </p>
         
-            <!-- 
-
-                
+            
 
              -->
-
-
     </main>
 
     <!--Script para los iconos de carrito y usuario-->
