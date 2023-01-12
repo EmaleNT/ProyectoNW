@@ -12,7 +12,7 @@
 
 <header>
         <a href="index.php"><img src="img/logo.png" alt="Logo"></a>
-    </header>
+</header>
     
     <nav>
        
@@ -63,7 +63,7 @@
         </div>
 
    </div>
-    </main>
+</main>
 
     <!--Script para los iconos de carrito y usuario-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
