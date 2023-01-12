@@ -36,16 +36,16 @@
 
     <main>
         <img class="adoptados" src="img/adopta1.jpg">
-        <img src="img/adopta2.jpg" width=30%>
-        <img src="img/adopta3.jpg" width=30%>
+        <img class="adoptados" src="img/adopta2.jpg">
+        <img class="adoptados" src="img/adopta3.jpg">
 
-        <img src="img/adopta4.jpg" width=30%>
-        <img src="img/adopta5.jpg" width=30%>
-        <img src="img/adopta6.jpg" width=30%>
+        <img class="adoptados" src="img/adopta4.jpg">
+        <img class="adoptados" src="img/adopta5.jpg">
+        <img class="adoptados" src="img/adopta6.jpg">
 
-        <img src="img/adopta7.jpg" width=30%>
-        <img src="img/adopta8.jpg" width=30%>
-        <img src="img/adopta9.jpg" width=30%>
+        <img class="adoptados" src="img/adopta7.jpg">
+        <img class="adoptados" src="img/adopta8.jpg">
+        <img class="adoptados" src="img/adopta9.jpg">
         
     </main>
 
