@@ -68,9 +68,15 @@
         </tr>
 
         <tr>
-        <td>Pontiac</td>
-        <td>GTO</td>
-        <td>2004-2006</td>
+        <td>Mascotas saludables, personas más felices, dignidad y respeto.</td>
+        <td>Con todo nuestro esfuerzo, proporcionar la más alta calidad de vida a los animales domésticos, otorgando productos, servicios y soluciones que permitan a nuestros clientes amar y cuidar a sus mascotas como lo que son, miembros de su familia.</td>
+        <td>
+            <ul>
+                <li>Servicio</li>
+                <li>Compromiso</li>
+                <li>Innovación</li>
+                <li>Calidez</li>
+            </ul></td>
         </tr>
 
         <tr>
