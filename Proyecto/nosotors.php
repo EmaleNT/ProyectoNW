@@ -33,7 +33,7 @@
 
     <main>
     <div class="pricing-plan">
-        <div class="mvv">
+        <!--<div class="mvv">
             <img src="img/a.png" alt="" class="pricing-img">
             <h2 class="pricing-header">Misión</h2>
             <ul class="pricing-features">
@@ -58,7 +58,32 @@
                 <li class="pricing-features-item">Innovación</li>
                 <li class="pricing-features-item">Calidez</li>
             </ul>
-        </div>
+        </div> -->
+
+        <table>
+        <tr>
+            <th rowspan="2">Misión</th>
+            <th rowspan="2">Visión</th>
+            <th rowspan="2">Valores</th>
+        </tr>
+
+        <tr>
+        <td>Pontiac</td>
+        <td>GTO</td>
+        <td>2004-2006</td>
+        </tr>
+
+        <tr>
+        <td><img src="img/a.png" alt="" class="pricing-img"></td>
+        <td><img src="img/b.png" alt="" class="pricing-img"></td>
+        <td><img src="img/c.png" alt="" class="pricing-img"></td>
+        </tr>
+
+
+    </table>
+
+
+
 
    </div>
 </main>
