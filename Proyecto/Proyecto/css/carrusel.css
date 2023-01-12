@@ -1,0 +1,44 @@
+/*configuracion botones*/
+.carruselImg a{
+    position: absolute;
+    padding: 15% 1%;
+    cursor: pointer;
+    background-color: none;
+    opacity: 0.2;
+    font-size: xx-large;
+    
+    
+    
+   
+}
+
+.right{
+    left: 68%;
+}
+
+.left{
+    left: 30%;
+}
+
+
+
+.carruselImg a:hover{
+    color: white;
+    background-color: #252525;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+.carruselImg{
+    
+    text-align: center;
+    margin-top: 1%;
+}
+
+
+/*
+.right{
+    transform: translate(50px,-250px);
+}*/
