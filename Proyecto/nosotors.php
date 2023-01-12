@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilosHeaderNavacercade.css">
+    <link rel="stylesheet" href="css/estilosHeaderNav.css">
     <!--<link rel="stylesheet" href="css/nosotros.css">-->
     <title>Mascotify</title>
 
@@ -74,9 +74,9 @@
         </tr>
 
         <tr>
-        <td><img src="img/a.png" alt="" class="pricing-img"></td>
-        <td><img src="img/b.png" alt="" class="pricing-img"></td>
-        <td><img src="img/c.png" alt="" class="pricing-img"></td>
+        <td><img src="img/a.png" alt="" width="100px"></td>
+        <td><img src="img/b.png" alt="" width="100px"></td>
+        <td><img src="img/c.png" alt="" width="100px"></td>
         </tr>
 
 
