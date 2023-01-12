@@ -34,8 +34,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     background-color: #F1D3B3;
-    display: flex;
-    min-height: 100vh;
 }
 
 ol, ul {
