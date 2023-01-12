@@ -35,17 +35,17 @@
     </nav>
 
     <main>
-        <img src="img/adopta1.jpg" width=30% margin=50px>
-        <img src="img/adopta2.jpg" width=30% margin=20px>
-        <img src="img/adopta3.jpg" width=30% margin=20px>
+        <img class="adoptados" src="img/adopta1.jpg">
+        <img src="img/adopta2.jpg" width=30%>
+        <img src="img/adopta3.jpg" width=30%>
 
-        <img src="img/adopta4.jpg" width=30% margin=20px>
-        <img src="img/adopta5.jpg" width=30% margin=20px>
-        <img src="img/adopta6.jpg" width=30% margin=20px>
+        <img src="img/adopta4.jpg" width=30%>
+        <img src="img/adopta5.jpg" width=30%>
+        <img src="img/adopta6.jpg" width=30%>
 
-        <img src="img/adopta7.jpg" width=30% margin=20px>
-        <img src="img/adopta8.jpg" width=30% margin=20px>
-        <img src="img/adopta9.jpg" width=30% margin=20px>
+        <img src="img/adopta7.jpg" width=30%>
+        <img src="img/adopta8.jpg" width=30%>
+        <img src="img/adopta9.jpg" width=30%>
         
     </main>
 
