@@ -37,7 +37,7 @@
         <div class="carruselImg">
               
             <a class="left" onclick="flechaIzquierda()" ><</a>
-            <img  class="carruselImg" name="carruselImg" id="carruselImg"  src="img/pelota.jpg" width="30%" height="20%">
+            <img  class="carruselImg" name="carruselImg" id="carruselImg"  src="img/1.png" width="30%" height="20%">
             <a class="right" onclick ="flechaDerecha()">></a>
 
 

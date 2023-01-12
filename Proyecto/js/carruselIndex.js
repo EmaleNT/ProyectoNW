@@ -19,7 +19,7 @@ function reinicioTiempo(){
 //Configuracion boton derecho
 function flechaDerecha(){
     valorImg+=1;
-    if(valorImg==4){
+    if(valorImg==10){
         valorImg=0;
     }
     cambioImagen(valorImg);
@@ -31,7 +31,7 @@ function flechaDerecha(){
 function flechaIzquierda(){
     valorImg-=1;
     if(valorImg==-1){
-        valorImg=3;
+        valorImg=10;
     }
     cambioImagen(valorImg);
     reinicioTiempo();
@@ -39,7 +39,7 @@ function flechaIzquierda(){
 
 function cambioSolo(){
     valorImg+=1;
-    if(valorImg==4){
+    if(valorImg==10){
         valorImg=0;
     }
     cambioImagen(valorImg);
