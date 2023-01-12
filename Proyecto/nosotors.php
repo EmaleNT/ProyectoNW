@@ -47,11 +47,38 @@
                     <li>Innovación</li>
                 </ul>
             </p>
-        <ul>
-            <li>Nombre1</li>
-            <li>Nombre2</li>
-            <li>Nombre3</li>
-        </ul>
+        
+        <h2>Pruebas</h2>
+
+        <div class="container">
+        <div class="product">
+            <div class="bg-white">
+                <a href="">
+                    <img class="img-fluid"
+                        src="https://static.wixstatic.com/media/2c0034_5e484cb9921c41a8bde8eed74b3aa810~mv2.jpg"
+                        alt="" /></a>
+                <h1>Demo Heading</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="bg-white">
+                <a href="">
+                    <img class="img-fluid"
+                        src="https://static.wixstatic.com/media/2c0034_84e67efc3df44e8ea8b6da006e6d1ba5~mv2.jpg"
+                        alt="" /></a>
+                <h1>Demo Heading</h1>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor
+                    sit amet.Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+
+            <!-- 
+
+                
+
+             -->
 
 
     </main>
