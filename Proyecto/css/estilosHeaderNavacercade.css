@@ -35,8 +35,6 @@ body {
 	line-height: 1;
     background-color: #F1D3B3;
     display: flex;
-    
-    align-items: center;
     min-height: 100vh;
 }
 
