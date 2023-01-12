@@ -8,25 +8,25 @@
     <!--<link rel="stylesheet" href="css/nosotros.css">-->
     <title>Mascotify</title>
 
-    <nav>
-       
-        <ul>
-           <li><a href="index.php"><img src="img/logo.png" alt="Logo" width="45px"></a></li>
-           <li><a href="listaProductos.php">Productos</a></li>
-           <li><a href="nosotors.php">Acerca de nosotros</a></li>
-           <li><a href="adopciones.php">Adopciones</a></li>
-       </ul>
-      
-
-       <div class="iconoCarrito">
-           <ul >
-               <li><a href="carrito.php"><ion-icon size="large" name="cart-outline"></ion-icon></a></li>
-           </ul>
-       </div>
-       
-   </nav>
 </head>
 
+<nav>
+       
+       <ul>
+          <li><a href="index.php"><img src="img/logo.png" alt="Logo" width="45px"></a></li>
+          <li><a href="listaProductos.php">Productos</a></li>
+          <li><a href="nosotors.php">Acerca de nosotros</a></li>
+          <li><a href="adopciones.php">Adopciones</a></li>
+      </ul>
+     
+
+      <div class="iconoCarrito">
+          <ul >
+              <li><a href="carrito.php"><ion-icon size="large" name="cart-outline"></ion-icon></a></li>
+          </ul>
+      </div>
+      
+  </nav>
 
 <body>
 
