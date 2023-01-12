@@ -10,10 +10,10 @@ body{
     background-color: #F1D3B3;
 }
 
-/**{
+*{
     margin: 0%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}*/
+}
 
 header{
     background-color: #65647C;
