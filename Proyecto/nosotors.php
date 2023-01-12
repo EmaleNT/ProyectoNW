@@ -32,7 +32,7 @@
    </nav>
 
     <main>
-        <h1>Proyecto final Negocios electrónicos y desarrollo web </h1>
+        <h1>¿Quiénes Somos?</h1>
         <h2>Integrantes:</h2>
         <ul>
             <li>Nombre1</li>
