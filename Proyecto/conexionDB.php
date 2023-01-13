@@ -2,13 +2,14 @@
 $db_host="localhost";
 $db_nombre="tienda";
 $db_usuario="root";
-$db_contrasena="hola12345";
+$db_contrasena="admin123";
 
 try {
     $conexion=new PDO("mysql:host=$db_host;dbname=$db_nombre;",$db_usuario,$db_contrasena);
 } catch (Exception $e) {
     echo "Ocurrió algo con la base de datos: " . $e->getMessage();
 }
+
 
 /*
 
@@ -62,4 +63,20 @@ foreach($query as $productos){
 }*/
 
 
+
+
+/*
+//Read Imagenes
+$sql="SELECT * FROM producto";
+$query = $conexion->query($sql);
+
+$query->execute();
+$stmt = $query->fetchAll();
+
+
+foreach($stmt as $productos){
+    $img = base64_encode($productos['IMAGEN']);
+    echo '<img src="data:image/jpg;base64,'.$img.'">';
+    }
+*/
 ?>

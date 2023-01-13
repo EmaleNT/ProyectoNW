@@ -3,6 +3,8 @@ require 'conexionDB.php';
 
 $sql="SELECT * FROM producto";
 $query=$conexion->query($sql);
+$query->execute();
+$query = $query->fetchAll();
 
 ?>
 
@@ -44,7 +46,9 @@ $query=$conexion->query($sql);
         <div class="listaProductos">
         <?php foreach($query as $productos){
             echo "<div class='producto'>";
-                echo"<img src='img/pelota.jpg' alt='producto'>";
+            
+                $img = base64_encode($productos['IMAGEN']);
+                echo '<img src="data:image/jpg;base64,'.$img.'">';
                 echo "<div class='datosProducto'>";
                      echo "<h2>".$productos['NOMBRE']."</h2>";
                 echo "</div>";
