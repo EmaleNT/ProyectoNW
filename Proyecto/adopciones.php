@@ -60,10 +60,10 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/0FHFNINzxbo" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/hrYScZhMeXU" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </p>
-        </div>
+    </div>
 
         <hr>
-        <div class="busqueda">
+    <div class="busqueda">
         <h3>Busca videos relacionados en YouTube</h3>
         <p>
             <form action="https://www.youtube.com/results">
@@ -71,8 +71,22 @@
                 <button>Buscar</button>
             </form>
         </p>
-            </div>
-    </main>
+    </div>
+
+    <hr>
+                <p>
+                    Da clic en una de las 3 casitas para encontrar un refugio dónde adoptar a tu próximo mejor amigo:
+                </p>
+    <img src="img/1673727184753.png" usemap="#image-map">
+
+    <map name="image-map">
+    <area target="_blank" alt="Milagros" title="Milagros" href="https://www.facebook.com/milagroscaninos/" coords="57,69,151,149" shape="rect">
+    <area target="_blank" alt="Fundacion" title="Fundacion" href="https://www.facebook.com/fundacionToby/" coords="63,380,150,448" shape="rect">
+    <area target="_blank" alt="Cristobal" title="Cristobal" href="https://www.facebook.com/AlbergueSanCristobal/" coords="62,235,146,303" shape="rect">
+    </map>
+                    
+        
+</main>
 
     
     <!--Script para los iconos de carrito y usuario-->
