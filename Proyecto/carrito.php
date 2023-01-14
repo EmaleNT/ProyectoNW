@@ -66,24 +66,31 @@ creaSession();
                 $img = base64_encode($productos['IMAGEN']);
                 echo '<img src="data:image/jpg;base64,'.$img.'" width="180" height="180">';
                 echo "</td>";
-                echo "<td>Informacion producto <br/> </td>";
+                echo "<td>Nombre:". $productos['NOMBRE']."</td>";
 
                 echo "<td>";
-                echo '<select name="number">';
-                
+                echo "Canidad:";
+            
+                echo '<form method="post" action="actualizarValorCarrito.php">';
+                echo "<input type='hidden' name='nombreProducto' value='". $productoCarrito."'>";
+                echo "<select name='nuevoValor' onchange='this.form.submit()'>";
+
                     for($i=1; $i<=10; $i++){
                     echo '<option value="'.$i.'" ';
                     if(isset($value) && $value == $i){ 
                         echo "selected"; 
+                        
                     } 
                     echo '>'.$i.'</option>';
+                    
                     }
                
                 echo "</select>";
+                echo "</form>";
                 echo "</td>";
 
                 
-                echo "<td> Precio:".$productos."</td>";
+                echo "<td> Precio:".($productos['PRECIO']*$value)."</td>";
                 echo "<td>";
                     echo "<form action='eliminarCarrito.php' method='post'>";
                     echo "<input type='hidden' name='nombreProducto' value='". $productos['NOMBRE']."'>";
@@ -104,7 +111,10 @@ creaSession();
 
         <?php
         echo "Total: ".$total;
-        
+        echo "<form action='datos.php' method='post'>";
+        //echo "<input type='hidden' name='nombreProducto' value='". $productos['NOMBRE']."'>";
+        echo "<button type='submit'>Pagar</button>";
+        echo "</form>";
         ?>
     </main>
 

@@ -11,7 +11,7 @@ function creaSession(){
 }
    
 
-//$nombreProducto='Gato';
+
 
 //Añadir carrito
 
@@ -39,7 +39,10 @@ function eliminar($nombreProducto){
     }
 }
 
-
+//Actualizar varlor en carrito
+function actualizarValorCarrito($nombreProducto,$valornuevo){
+    $_SESSION['carrito'][$nombreProducto]=$valornuevo;
+}
 
 /*
 // Mostrar carrito
@@ -49,6 +52,8 @@ echo $_SESSION['carrito']['Gato'];
 echo $_SESSION['carrito']['Perro']; 
 */
 
+
+//Destruir session
 function destruirSession(){
     session_destroy();
 }
