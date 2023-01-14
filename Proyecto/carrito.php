@@ -40,10 +40,16 @@
         <table>
             <tr>
                 <td><img src="img/pelota.jpg" width="180" height="180"></td>
-                <td>Informacion producto <br/> <input type="button" > Cantidad:  <input type="number" placeholder="1"></td>
+                <td>Informacion producto <br/> </td>
+                <td> Cantidad:  <input type="number" placeholder="1"></td>
                 <td>$100</td>
-                <td>Boton Eliminar</td>
-            </tr>
+                <td>
+                    <form action="eliminarCarrito.php" method="post">
+                    
+                    <button type="submit">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
         </table>
     </main>
 
