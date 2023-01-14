@@ -1,3 +1,14 @@
+<?php
+require 'conexionDB.php';
+require 'funcionesSessions.php';
+
+creaSession();
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es-MXN">
 <head>
@@ -38,19 +49,47 @@
         <h1>Carrito</h1>
 
         <table>
-            <tr>
-                <td><img src="img/pelota.jpg" width="180" height="180"></td>
-                <td>Informacion producto <br/> </td>
-                <td> Cantidad:  <input type="number" placeholder="1"></td>
-                <td>$100</td>
-                <td>
-                    <form action="eliminarCarrito.php" method="post">
-                    
-                    <button type="submit">Eliminar</button>
-                    </form>
-                </td>
-            </tr>
+        <?php
+        $total=0;
+        foreach($_SESSION['carrito'] as $productoCarrito=>$value){
+            $valor=$productoCarrito;
+            $sql="SELECT * FROM producto WHERE nombre LIKE '%".$valor."%'";
+            $query = $conexion->query($sql);
+            $query->execute();
+            $stmt = $query->fetchAll();
+            
+            foreach($stmt as $productos){
+                
+
+                echo "<tr>";
+                echo "<td>";
+                $img = base64_encode($productos['IMAGEN']);
+                echo '<img src="data:image/jpg;base64,'.$img.'" width="180" height="180">';
+                echo "</td>";
+                echo "<td>Informacion producto <br/> </td>";
+                echo "<td> Cantidad:  <input type='number' placeholder=".$value."></td>";
+                echo "<td> Precio C/u".$productos['PRECIO']."</td>";
+                echo "<td>";
+                    echo "<form action='eliminarCarrito.php' method='post'>";
+                    echo "<input type='hidden' name='nombreProducto' value='". $productos['NOMBRE']."'>";
+                    echo "<button type='submit'>Eliminar</button>";
+                    echo "</form>";
+                echo "</td>";
+                echo "</tr>";
+                $total+=$productos['PRECIO'];
+                }
+            
+        }
+
+        ?>
+           
+
+    
         </table>
+
+        <?php
+        echo "Total: ".$total;
+        ?>
     </main>
 
     

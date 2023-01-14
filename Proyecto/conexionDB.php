@@ -67,7 +67,8 @@ foreach($query as $productos){
 
 /*
 //Read Imagenes
-$sql="SELECT * FROM producto";
+$valor="Hasbro Barril de Monos Rojos para Perro";
+$sql="SELECT * FROM producto WHERE NOMBRE LIKE '%".$valor."%'";
 $query = $conexion->query($sql);
 
 $query->execute();
@@ -78,5 +79,5 @@ foreach($stmt as $productos){
     $img = base64_encode($productos['IMAGEN']);
     echo '<img src="data:image/jpg;base64,'.$img.'">';
     }
-*/
+*/  
 ?>
