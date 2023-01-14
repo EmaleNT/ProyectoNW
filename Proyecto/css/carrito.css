@@ -2,9 +2,7 @@ h1{
     text-align: center;
 }
 
-/*quitra flechas del numero*/
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+
+.imagen{
+    color: white;
 }

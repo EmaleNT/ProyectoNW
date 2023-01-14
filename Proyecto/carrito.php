@@ -46,7 +46,7 @@ creaSession();
    </nav>
 
     <main>
-        <h1>Carrito</h1>
+        <h1 >Carrito</h1>
 
         <table>
         <?php
@@ -66,12 +66,13 @@ creaSession();
                 $img = base64_encode($productos['IMAGEN']);
                 echo '<img src="data:image/jpg;base64,'.$img.'" width="180" height="180">';
                 echo "</td>";
-                echo "<td>Nombre:". $productos['NOMBRE']."</td>";
+                echo "<td class='imagen'> Nombre:<br>". $productos['NOMBRE']."</td>";
 
                 echo "<td>";
                 echo "Canidad:";
             
                 echo '<form method="post" action="actualizarValorCarrito.php">';
+                //Al cambiar el valor de el select se actualisa en la session
                 echo "<input type='hidden' name='nombreProducto' value='". $productoCarrito."'>";
                 echo "<select name='nuevoValor' onchange='this.form.submit()'>";
 
@@ -118,7 +119,8 @@ creaSession();
         ?>
     </main>
 
-    
+    <!--Script para los iconos de carrito y usuario-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
 </body>
 </html>

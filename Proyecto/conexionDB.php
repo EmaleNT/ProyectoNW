@@ -11,24 +11,40 @@ try {
 }
 
 
+
+
+//READ
+//$sql="SELECT * FROM producto";
+//$query=$conexion->query($sql);
+
+
 /*
-
-READ
-$sql="SELECT * FROM producto";
-$query=$conexion->query($sql);
-
-
-
 foreach($query as $productos){
     echo $productos['NOMBRE'].','; 
     echo $productos['PRECIO'].',';
     echo $productos['CANTIDAD'];
     echo 
     echo '<br>'; 
-}
+}*/
 
+
+/*
+//Read 1 valor
+$sql="SELECT MAX(ID) FROM orden;";
+$query=$conexion->query($sql);
+echo $query->fetchColumn();
 */
 
+
+//$sql="SELECT ID FROM producto WHERE nombre LIKE '%".$productoCarrito."%'";
+/*
+$valor=10;
+$valor2=6;
+$valor3=6;
+ $sql="INSERT INTO lista_productos (orden_id, producto_id, cantidad) VALUES (".$valor.",".$valor2.",".$valor3.");";        
+$query=$conexion->query($sql);
+        echo $query->fetchColumn();
+*/
 /*
 UPDATE,INSTERT,DELET
 try{
@@ -66,7 +82,7 @@ foreach($query as $productos){
 
 
 /*
-//Read Imagenes
+//Read Imagenes con where
 $valor="Hasbro Barril de Monos Rojos para Perro";
 $sql="SELECT * FROM producto WHERE NOMBRE LIKE '%".$valor."%'";
 $query = $conexion->query($sql);
