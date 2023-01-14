@@ -67,8 +67,23 @@ creaSession();
                 echo '<img src="data:image/jpg;base64,'.$img.'" width="180" height="180">';
                 echo "</td>";
                 echo "<td>Informacion producto <br/> </td>";
-                echo "<td> Cantidad:  <input type='number' placeholder=".$value."></td>";
-                echo "<td> Precio C/u".$productos['PRECIO']."</td>";
+
+                echo "<td>";
+                echo '<select name="number">';
+                
+                    for($i=1; $i<=10; $i++){
+                    echo '<option value="'.$i.'" ';
+                    if(isset($value) && $value == $i){ 
+                        echo "selected"; 
+                    } 
+                    echo '>'.$i.'</option>';
+                    }
+               
+                echo "</select>";
+                echo "</td>";
+
+                
+                echo "<td> Precio:".$productos."</td>";
                 echo "<td>";
                     echo "<form action='eliminarCarrito.php' method='post'>";
                     echo "<input type='hidden' name='nombreProducto' value='". $productos['NOMBRE']."'>";
@@ -89,6 +104,7 @@ creaSession();
 
         <?php
         echo "Total: ".$total;
+        
         ?>
     </main>
 
