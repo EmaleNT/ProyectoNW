@@ -16,7 +16,7 @@ div.producto{
 
 }
 
-div.producto input{
+div.producto button{
     width: 100%;
     text-align: center;
     padding: 2.5% ;
@@ -44,7 +44,7 @@ div.producto:hover{
     transform: scale(1.2);
 }
 
-div.producto input:hover{
+div.producto button:hover{
     cursor: pointer;
     background-color: #65647C;;
 }

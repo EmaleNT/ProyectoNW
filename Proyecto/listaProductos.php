@@ -1,6 +1,8 @@
 <?php
 require 'conexionDB.php';
 
+
+
 $sql="SELECT * FROM producto";
 $query=$conexion->query($sql);
 $query->execute();
@@ -44,23 +46,27 @@ $query = $query->fetchAll();
 
     <main>
         <div class="listaProductos">
-        <?php foreach($query as $productos){
-            echo "<div class='producto'>";
+        
+        <?php 
+        foreach($query as $productos){
             
-                $img = base64_encode($productos['IMAGEN']);
-                echo '<img src="data:image/jpg;base64,'.$img.'">';
-                echo "<div class='datosProducto'>";
-                     echo "<h2>".$productos['NOMBRE']."</h2>";
-                echo "</div>";
-                echo "<p>".$productos['PRECIO']."</p>";
-                echo "<input type='button' value='Agregar a carrito' onclick='mensaje()'>";
+            echo "<div class='producto'>";  
+            echo '<form action="anadirCarrito.php" method="post">';         
+            $img = base64_encode($productos['IMAGEN']);
+            echo '<img src="data:image/jpg;base64,'.$img.'">';
+            echo "<div class='datosProducto'>";
+            echo "<h2>".$productos['NOMBRE']."</h2>";
+            echo "</div>";
+            echo "<p>".$productos['PRECIO']."</p>";
+            echo "<input type='hidden' name='nombreProducto' value='". $productos['NOMBRE']."'>";
+            echo "<button type='submit'>Añadir al carrito</button>";
+            echo "</form>";
             echo "</div>";
         }?>
     
+    
+    
 
-
-
-           
 
 
         </div>
