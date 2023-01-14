@@ -38,7 +38,7 @@ try{
     $sql="SELECT MAX(ID) FROM orden;";
     $orden=$conexion->query($sql);
     $idOrden=$orden->fetchColumn();
-    echo $idOrden;
+    //echo $idOrden;
 
     
     foreach($_SESSION['carrito'] as $productoCarrito=>$value){
@@ -46,11 +46,11 @@ try{
         $query=$conexion->query($sql);
         $idProducto=$query->fetchColumn();
         
-        echo "<br>";
-        echo $idProducto;
-        echo "<br>";
-        echo $value;
-        echo "<br>";
+        //echo "<br>";
+        //echo $idProducto;
+        //echo "<br>";
+        //echo $value;
+        //echo "<br>";
 
         $sql="INSERT INTO lista_productos (orden_id, producto_id, cantidad) VALUES (".$idOrden.",".$idProducto.",".$value.");";        
         $query=$conexion->query($sql);
@@ -61,20 +61,26 @@ try{
 
     // Consignar los cambios 
     $conexion->commit();
-    echo "Se realizo con exito";  
+    //echo "Se realizo con exito";  
+    destruirSession();
+
+    require 'cerrarConexion.php';
     
-   
+
+    //Muestra una alaerta de exito y redirige a index.php
+    echo "<script>alert('Compra exitosamente'); window.location.href = 'index.php';</script>";
+    
     
 }
 catch(Exception $e){
     $conexion->rollBack();
-    echo "Fallo".$e->getMessage();
+    //echo "Fallo".$e->getMessage();
+
+    //Muestra una alaerta de error y redirige a carrito.php
+    echo "<script>alert('Error al comprar'); window.location.href = 'carrito.php';</script>";
+    
 }
 
-include 'cerrarConexion.php';
-destruirSession();
 
-header("Location: index.php");
-exit;
 ?>
 

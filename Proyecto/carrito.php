@@ -99,7 +99,7 @@ creaSession();
                     echo "</form>";
                 echo "</td>";
                 echo "</tr>";
-                $total+=$productos['PRECIO'];
+                $total+=$productos['PRECIO']*$value;
                 }
             
         }
