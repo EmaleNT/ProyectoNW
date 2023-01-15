@@ -66,7 +66,7 @@ creaSession();
                 $img = base64_encode($productos['IMAGEN']);
                 echo '<img src="data:image/jpg;base64,'.$img.'" width="180" height="180">';
                 echo "</td>";
-                echo "<td class='imagen'> Nombre:<br>". $productos['NOMBRE']."</td>";
+                echo "<td class='nombre'> Nombre:<br>". $productos['NOMBRE']."</td>";
 
                 echo "<td>";
                 echo "Canidad:";
@@ -91,7 +91,7 @@ creaSession();
                 echo "</td>";
 
                 
-                echo "<td> Precio:".($productos['PRECIO']*$value)."</td>";
+                echo "<td class='precio'> Precio:".($productos['PRECIO']*$value)."</td>";
                 echo "<td>";
                     echo "<form action='eliminarCarrito.php' method='post'>";
                     echo "<input type='hidden' name='nombreProducto' value='". $productos['NOMBRE']."'>";

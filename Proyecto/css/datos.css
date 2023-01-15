@@ -1,0 +1,68 @@
+p{
+    display: inline-block;
+    margin: 50px 20px;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+h2{
+    margin-left: 20px;
+    font-size: x-large;
+
+}
+
+input{
+    padding: 15px;
+    border-radius: 12px;
+    font-size: larger; 
+}
+
+select{
+    padding: 15px;
+    border-radius: 12px;
+    font-size: larger;  
+}
+
+
+label{
+    font-size: x-large; 
+}
+
+.boton{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+}
+
+
+.botonDentro{
+    padding: 15px;
+    border-radius: 12px;
+    font-size: larger;
+}
+
+
+.botonDentro:hover{
+    cursor: pointer;
+    background-color: #65647C;
+}
+
+.envioPago p{
+    display: block;
+}
+
+
+
+  
+  
+  
+  
+  

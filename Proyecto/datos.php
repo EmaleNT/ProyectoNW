@@ -13,7 +13,7 @@ creaSession();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilosHeaderNav.css">
-    <link rel="stylesheet" href="css/carrusel.css">
+    <link rel="stylesheet" href="css/datos.css">
     <title>Mascotify</title>
 </head>
 <body>
@@ -47,8 +47,8 @@ creaSession();
 
     
 
-    <h1>Compra segura</h1>
-       
+    <h1>Datos</h1>
+        <br/>
         <form action='cargarDatosFormulario.php' method='post'>
         <h2>Dirección</h2>
         <div class="direccionPago">
@@ -109,11 +109,15 @@ creaSession();
 
             <hr>
 
-            <h2>Envío</h2>
+            <h2>Tipo de envío</h2>
             <div class="envioPago">
                     <p>
                         <label for="1">Envío estandar:</label>
-                        <input type="radio" name="envioestandar" id="1" value="1" required>
+                        <input  type="radio"  name="envioestandar" id="1" value="1" required>
+                        <br/>
+                        <label for="2">Envío express:</label>
+                        <input  type="radio"  name="envioestandar" id="2" value="2" required>
+                        
                     </p>
                     <p>
                         El tiempo de entrega estimado para compras en la CDMX y Área Metropolitana es de 3 a 5 días hábiles. Guadalajara y Monterrey entre 3 a 7 días hábiles. Para el resto de la República Mexicana hasta 15 días hábiles. En caso de no encontrar quién reciba el paquete se dejará una notificación de entrega fallida, la paquetería realizará 2 intentos más como máximo para dejar el paquete en el domicilio señalado al momento de realizar su compra.
@@ -179,7 +183,9 @@ creaSession();
         </p>
     </div>
 
-        <button type='submit'>CONFIRMAR</button>
+        <div class="boton">
+        <button class="botonDentro" type='submit'>CONFIRMAR</button>
+        </div>
         </form>
         
             
