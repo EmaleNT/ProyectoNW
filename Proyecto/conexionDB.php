@@ -1,6 +1,6 @@
 <?php
 $db_host="localhost";
-$db_nombre="tienda";
+$db_nombre="eq10mascotas";
 $db_usuario="root";
 $db_contrasena="admin123";
 
