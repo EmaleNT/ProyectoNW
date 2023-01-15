@@ -37,7 +37,7 @@
     <main>
         <p></p>
         <div class="tituadopta">
-            <h2 style="text-align:center;">El amor no se compra</h2>
+            <h1 style="text-align:center;">El amor no se compra</h1>
             <h1 style="text-align:center;">SE ADOPTA</h1>
         </div>    
 
@@ -64,7 +64,8 @@
 
         <hr>
     <div class="busqueda">
-        <h3>Busca videos relacionados en YouTube</h3>
+        <h1>Busca videos relacionados en YouTube</h1>
+        <br>
         <p>
             <form action="https://www.youtube.com/results">
                 <input type="text" name="search_query" placeholder="Quiero adoptar..." required>
@@ -75,7 +76,7 @@
 
     <hr>
                 <p>
-                    Da clic en una de las 3 casitas para encontrar un refugio dónde adoptar a tu próximo mejor amigo:
+                    Da clic en cualquiera de las 3 casitas para encontrar un refugio dónde adoptar a tu próximo mejor amigo:
                 </p>
     <img src="img/1673727184753.png" usemap="#image-map">
 

@@ -32,6 +32,48 @@
 
 
     <main>
+
+    <div class="acercaDe">
+
+        <div class="acercaDeInfo">
+            <img src="img/a.png" alt="" class="acercaDeImg" width=200px>
+            <h1 class="acercaDeHeader">Misión</h1>
+            <ul class="acercaDeDescrip">
+                <li class="acercaDeDescrip-item">Mascotas saludables, personas más felices, dignidad y respeto.</li>
+            </ul>
+            <br>
+            <br>
+        </div>
+        <br>
+
+        <div class="acercaDeInfo">
+            <img src="img/b.png" alt="" class="acercaDeImg" width=200px>
+            <h1 class="acercaDeHeader">Visión</h1>
+            <ul class="acercaDeDescrip">
+                <li class="acercaDeDescrip-item">Con todo nuestro esfuerzo, proporcionar la más alta calidad de vida a los animales domésticos, <br>otorgando productos, servicios y soluciones que permitan a nuestros clientes amar y cuidar a sus<br> mascotas como lo que son, miembros de su familia.</li>
+            </ul>
+            <br>
+            <br>
+        </div>
+    
+
+        <div class="acercaDeInfon">
+            <img src="img/c.png" alt="" class="acercaDeImg" width=200px>
+            <h1 class="acercaDeHeader">Valores</h1>
+            <ul class="acercaDeDescrip">
+                <li class="acercaDeDescrip-item">Servicio</li>
+                <li class="acercaDeDescrip-item">Compromiso</li>
+                <li class="acercaDeDescrip-item">Calidez</li>
+                <li class="acercaDeDescrip-item">Innovación</li>
+            </ul>
+            <br>
+            <br>
+            
+        </div>
+
+    </div>
+    
+    <!--
     <div>
 
         <table>
@@ -66,6 +108,7 @@
 
 
    </div>
+   -->
 </main>
 
     <!--Script para los iconos de carrito y usuario-->
