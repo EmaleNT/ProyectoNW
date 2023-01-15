@@ -66,7 +66,7 @@ creaSession();
                 $img = base64_encode($productos['IMAGEN']);
                 echo '<img src="data:image/jpg;base64,'.$img.'" width="180" height="180">';
                 echo "</td>";
-                echo "<td class='nombre'> Nombre:<br>". $productos['NOMBRE']."</td>";
+                echo "<td class='nombre'>". $productos['NOMBRE']."</td>";
 
                 echo "<td>";
                 echo "Canidad:";
@@ -91,11 +91,11 @@ creaSession();
                 echo "</td>";
 
                 
-                echo "<td class='precio'> Precio:".($productos['PRECIO']*$value)."</td>";
+                echo "<td> Precio:".($productos['PRECIO']*$value)."</td>";
                 echo "<td>";
                     echo "<form action='eliminarCarrito.php' method='post'>";
                     echo "<input type='hidden' name='nombreProducto' value='". $productos['NOMBRE']."'>";
-                    echo "<button type='submit'>Eliminar</button>";
+                    echo "<button class='boton' type='submit'>Eliminar</button>";
                     echo "</form>";
                 echo "</td>";
                 echo "</tr>";
@@ -111,10 +111,13 @@ creaSession();
         </table>
 
         <?php
-        echo "Total: ".$total;
+        echo "<br>";
+        echo "<h1 class='total'>Total: ".$total."<h1>";
         echo "<form action='datos.php' method='post'>";
         //echo "<input type='hidden' name='nombreProducto' value='". $productos['NOMBRE']."'>";
-        echo "<button type='submit'>Pagar</button>";
+        echo "<div class='pagarAfuera'>";
+        echo "<button class='pagar' type='submit'>Pagar</button>";
+        echo "<div>";
         echo "</form>";
         ?>
     </main>

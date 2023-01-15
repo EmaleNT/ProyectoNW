@@ -1,16 +1,68 @@
 h1{
-    text-align: center;
+    
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+table{
+    margin: 0 auto;
+    width: 100%;
+}
 
+td{
+
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    vertical-align: middle;
+    font-size: x-large;
+}
+
+select{
+    padding: 5px;
+    border-radius: 12px;
+    font-size: larger;  
+}
 
 .nombre{
     color: black;
     padding-right: 20px;
 }
 
-.precio{
-    padding-left: 20px;
-    padding-right: 20px;
+.boton{
+    padding: 15px;
+    border-radius: 12px;
+    font-size: larger;
 }
+
+
+.pagar{
+    padding: 5px;
+    border-radius: 12px;
+    font-size: larger;
+}
+
+
+.boton:hover,.pagar:hover{
+    cursor: pointer;
+    background-color: #65647C;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.pagarAfuera{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+
+
+
 
